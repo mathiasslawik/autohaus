@@ -1,0 +1,33 @@
+<p>Hallo, <fb:name uid="loggedinuser" firstnameonly="true" linked="false" useyou="false"/>. Hier sind Deine Aufträge:</p>
+
+<% paginated_section @orders do %>
+<table id="list">
+  <tr id="list_head">
+    <td><%= link_to_sort 'Kontakt', 'contact.sort' %></td>
+    <td><%= link_to_sort 'Auftragsnummer', 'number' %></td>
+    <td><%= link_to_sort 'Rechnungsnummer', 'invoice.number' %></td>
+    <td><%= link_to_sort 'Rechnungstyp', 'invoice.invoice_type' %></td>
+    <td><%= link_to_sort 'Rechnungsbetrag', 'invoice.amount' %></td>
+    <td><%= link_to_sort 'Rechnungsdatum', 'invoice.date' %></td>
+    <td><%= link_to_sort 'HU/AU', 'invoice.special ? 1 : 0' %></td>
+    <td>&nbsp;</td>
+  </tr>
+
+  <% @orders.each do |order| %>
+  <tr class="list_row">
+    <td><%= order.contact.sort %></td>
+    <td><%= order.number %></td>
+    <% if order.invoice %>
+    <td><%= order.invoice.number %></td>
+    <td><%= order.invoice.invoice_type %></td>
+    <td><%= "%.2f" % (order.invoice.amount / 100.0)%> €</td>
+    <td><%= order.invoice.date.strftime("%d.%m.%Y") %></td>
+    <td><%= order.invoice.special ? "Ja" : "Nein" %></td>
+    <% else %>
+    <%= 5.times "<td>&nbsp;</td>" %>
+    <% end %>
+    <td><%= link_to "Details", facebook_order_url(order.id) %></td>
+  </tr>
+  <% end %>
+</table>
+<% end %>

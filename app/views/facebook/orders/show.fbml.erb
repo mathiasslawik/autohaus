@@ -1,0 +1,64 @@
+<p>Hallo, <fb:name uid="loggedinuser" firstnameonly="true" linked="false" useyou="false"/>.</p>
+
+<p>Hier kannst Du Deinen Auftrag "<%= @order.number %>" kommentieren:</p>
+
+<h1>Auftragsdetails:</h1>
+
+<table>
+  <tr>
+    <td>Kontakt</td>
+    <td><%= @order.contact.name %></td>
+  </tr>
+  <tr>
+    <td>Auftragsnummer</td>
+    <td><%= @order.number %></td>
+  </tr>
+  <tr>
+    <td>Rechnungsnummer</td>
+    <td><% if @order.invoice %><%= @order.invoice.number %><% else %>&nbsp;<% end %></td>
+  </tr>
+  <tr>
+    <td>Rechnungstyp</td>
+    <td><% if @order.invoice %><%= @order.invoice.invoice_type %><% else %>&nbsp;<% end %></td>
+  </tr>
+  <tr>
+    <td>Rechnungsbetrag</td>
+    <td><% if @order.invoice %><%= @order.invoice.amount / 100.0 %><% else %>&nbsp;<% end %></td>
+  </tr>
+  <tr>
+    <td>Rechnungsdatum</td>
+    <td><% if @order.invoice %><%= @order.invoice.date.strftime("%d.%m.%Y") %><% else %>&nbsp;<% end %></td>
+  </tr>
+  <tr>
+    <td>HU/AU</td>
+    <td><% if @order.invoice %><%= @order.invoice.special ? "Ja" : "Nein" %><% else %>&nbsp;<% end %></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<h1>Auftrag auf Facebook-Wall posten:</h1>
+
+<% unless @facebook_session.user.has_permission?('publish_stream') %>
+  <script type="text/javascript">
+  function permission_refresh()
+  {
+  document.setLocation('<%= facebook_order_url(@order.id) %>');
+  }
+  </script>
+
+  <p><%= fb_prompt_permission('publish_stream', "Klicke hier, um der Autohaus-Applikation zu erlauben, Aufträge auf Deinem Profil zu posten.", "permission_refresh()")%></p>
+<% else %>
+  <% form_tag :action => :post_to_wall, :id => @order.id do %>
+    <p>Meine Bewertung zum Auftrag:</p>
+
+    <% 5.downto(0) do |i| %>
+    <p><%= radio_button_tag 'rating', "#{i}", i == 0 ? true : false %><%= rating_text("#{i}") %></p>
+    <% end %>
+
+    <p>Mein Kommentar zum Auftrag:</p>
+    <%= text_area_tag :comment, nil, :size => "85x5" %>
+
+    <pre><%= submit_tag "Auf meiner Wall posten" %></pre>
+  <% end %>
+<% end %>

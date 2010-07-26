@@ -1,0 +1,14 @@
+<h1>Liste der <% if @contacts_class == "Person" then %>Privatpersonen<% else %>Firmen<% end %> (<%= paginate_stats @contacts %>)</h1>
+
+<table>
+  <tr>
+    <td rowspan="2">Kundentyp</td>
+    <td><%= radio_button_tag 'class', 'Person', @contacts_class == 'Person', :onclick => "location.href = '" + contacts_url + "?class=Person'" %>&nbsp;Privatpersonen</td>
+  </tr>
+  <tr>
+    <td><%= radio_button_tag 'class', 'Company', @contacts_class == 'Company', :onclick => "location.href = '" + contacts_url + "?class=Company'" %>&nbsp;Firmen</td>
+  </tr>
+</table>
+
+<%# Rendert je nach Klasse des Kontakts Liste der Privatpersonen oder Liste der Firmen%>
+<%= render :partial => @contacts_class.downcase + "_list", :locals => {@contacts_class.downcase.pluralize.to_sym => @contacts} %>

@@ -1,0 +1,15 @@
+<h1>Willkommen im Autohaus</h1>
+
+<p>Du hast folgende M&ouml;glichkeiten</p>
+
+<ul>
+  <% if current_user then %>
+    <% if current_user.admin? %>
+      <li></li>
+    <%  else %>
+
+    <% end %>
+  <% else %>
+
+  <% end %>
+</ul>

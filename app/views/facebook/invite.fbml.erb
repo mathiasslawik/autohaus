@@ -1,0 +1,10 @@
+<fb:request-form
+  action="<%= url_for :action => :index %>"
+  invite="true"
+  type="Autohaus"
+  content="<fb:req-choice url='<%= url_for :controller => :facebook, :action => :index, :only_path => false %>' label='Autohaus authorisieren'/>">
+
+  <fb:multi-friend-selector actiontext="Wähle die Freunde aus, die Du zur Autohaus-Applikation einladen möchtest"
+                            exclude_ids="<%= @friend_ids_with_account %>"
+                            email_invite="false" />
+</fb:request-form>

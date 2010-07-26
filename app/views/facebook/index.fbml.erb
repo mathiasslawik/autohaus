@@ -1,0 +1,71 @@
+<p>Hallo, <fb:name uid="loggedinuser" firstnameonly="true" linked="false" useyou="false"/>.</p>
+
+<% unless @due_cars.empty? %>
+  <h1>Du hast fällige Untersuchungen beim Autohaus!</h1>
+
+  <ol>
+    <% @due_cars.each do |car| %>
+    <li><p>Auto von <%= car.contact.name  %> mit dem Kennzeichen <%= car.license_number %><% unless car.registration_date.nil? %>, zugelassen am <%= car.registration_date.strftime("%d.%m.%Y") %><% end %><% unless car.inspection_date.nil? %>, letzte Inspektion am <%= car.inspection_date.strftime("%d.%m.%Y") %><% end %><% unless car.last_seen.nil? %>, letzter Besuch am <%= car.last_seen.strftime("%d.%m.%Y") %><% end %>.</p></li>
+    <% end %>
+  </ol>
+<% end %>
+
+<h1>Aktuelle Angebote aus dem Autohaus</h1>
+
+<% unless @facebook_session.user.has_permission?('user_about_me') %>
+  <p><%= link_to "Klicke hier, um uns die Erlaubnis zu geben, Dir aufgrund Deiner Daten interessante Angebote anzuzeigen", :action => :authorize_extended %></p>
+<% else %>
+  <div style="padding: 20px 0px 20px 20px">
+    <% @campaigns.each do |campaign| %>
+      <h2><%= campaign.name %></h2>
+      <p><%= campaign.text %></p>
+    <% end %>
+  </div>
+<% end %>
+
+<% unless @contacts.empty? %>
+<h1>Du bist mit folgenden Kontakten verknüpft:</h1>
+<ul>
+  <% @contacts.each do |contact| %>
+    <% if contact.class == Person then %>
+      <li><p>Privatkunde <%= contact.given_name %> <%= contact.surname %> (<%= link_to "Verknüpfung löschen", contact_facebook_account_url(contact.id), :method => :delete %>)</p></li>
+    <% else %>
+      <li><p>Firma <%= contact.title %> (<%= link_to "Verknüpfung löschen", contact_facebook_account_url(contact.id), :method => :delete %>)</p></li>
+    <% end %>
+  <% end %>
+</ul>
+<% else %>
+<p>Du bist derzeit mit keinem Kontakt verknüpft.</p>
+<% end %>
+
+<p>&nbsp;</p>
+
+<h1>Freischaltcode vom Autohaus eingeben:</h1>
+
+<fb:editor action="<%= url_for :action => :accept_token %>" labelwidth="100">
+  <fb:editor-text label="Freischaltcode" name="token" value=""/>
+  <fb:editor-buttonset>
+      <fb:editor-button value="Freischalten"/>
+  </fb:editor-buttonset>
+</fb:editor>
+
+<h1>Erlaubnisse der Autohaus-Applikation</h1>
+
+<script type="text/javascript">
+  function permission_refresh()
+  {
+  document.setLocation('<%= url_for :action => :index %>');
+  }
+</script>
+
+<% unless @facebook_session.user.has_permission?('read_stream') %>
+  <p><%= fb_prompt_permission('read_stream', "Klicke hier, um uns die Erlaubnis zu geben, Deine Kommentare zu den Aufträgen zu lesen", "permission_refresh()")%></p>
+<% else %>
+  <p>Die Autohaus-Applikation darf Kommentare zu Deinen Aufträgen lesen.</p>
+<% end %>
+
+<% unless @facebook_session.user.has_permission?('email') %>
+  <p><%= fb_prompt_permission('email', "Klicke hier, um uns die Erlaubnis zu geben, Dir E-Mails mit interessanten Angeboten zukommen zu lassen", "permission_refresh()")%></p>
+<% else %>
+  <p>Die Autohaus-Applikation darf Dir E-Mails mit interessanten Angeboten zukommen lassen.</p>
+<% end %>

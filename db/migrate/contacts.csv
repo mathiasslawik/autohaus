@@ -1,0 +1,245 @@
+Id;Vorname;Name;Firma1;Anrede;Vorname_Kombiniert;Nachname_Kombiniert;Vorname_und_Nachname;Telefon_1;Plz;Ort;Adresse
+2002;;;Portmann GmbH & Co.KG;Firma;Fa.;Portmann GmbH & Co.KG;Fa. Portmann GmbH & Co.KG;02585/5103320;14469;Potsdam;Schlehenstieg 8246
+2004;;;Kleinemeyergesellschaft mbH;Firma;Fa.;Kleinemeyergesellschaft mbH;Fa. Kleinemeyergesellschaft mbH;09725/7290763;14482;Potsdam;Friedrich-Engels-Str. 50
+2005;Martine;Krogel;;;Martine;Krogel;Martine Krogel;07041/3845917;14480;Potsdam;Otto-Hahn-Ring 6650
+2006;;;Tziopanos AG;Firma;Fa.;Tziopanos AG;Fa. Tziopanos AG;04426/492848;14476;Potsdam;Zum Weißen See 2280
+2007;Geerd;Kowsky;;;Geerd;Kowsky;Geerd Kowsky;06096/2135969;14772;Brandenburg;Anton-Saefkow-Allee 5129
+2011;;;Temur e.V.;Firma;Fa.;Temur e.V.;Fa. Temur e.V.;07638/7791189;14774;Brandenburg;Am Gleisdreieck 5805
+2012;;;Nikusch GmbH;Firma;Fa.;Nikusch GmbH;Fa. Nikusch GmbH;06008/5608013;14772;Brandenburg;Dahlienweg 30
+2013;Otthild;Himer;;;Otthild;Himer;Otthild Himer;07413/2495605;14702;Rathenow;
+2014;Elimar;Meibaum;;;Elimar;Meibaum;Elimar Meibaum;06068/1331378;14776;Brandenburg;Zum Kirschberg 930
+2015;;;Beims GmbH;Firma;Fa.;Beims GmbH;Fa. Beims GmbH;09474/3296315;14774;Brandenburg;Amselweg 2343
+2018;;;Millfahrt e.V.;Firma;Fa.;Millfahrt e.V.;Fa. Millfahrt e.V.;02467/2671154;14901;Jueterbog;
+2020;;;Diestelmeiergesellschaft mbH;Firma;Fa.;Diestelmeiergesellschaft mbH;Fa. Diestelmeiergesellschaft mbH;08986/5789884;14469;Potsdam;Am Reiherbusch 2203
+2022;;;Stanetzky GmbH i.G.;Firma;Fa.;Stanetzky GmbH i.G.;Fa. Stanetzky GmbH i.G.;06620/4000889;14476;Potsdam;Dorfstr. 5072
+2025;;;Zaage gGmbH;Firma;Fa.;Zaage gGmbH;Fa. Zaage gGmbH;09059/1268658;14478;Potsdam;An der Alten Zauche 2488
+2029;;;Rodriguez GmbH i.G.;Firma;Fa.;Rodriguez GmbH i.G.;Fa. Rodriguez GmbH i.G.;02972/2498216;14476;Potsdam;St.-Anna-Str. 450
+2031;;;Kavuk GmbH & Co.KG;Firma;Fa.;Kavuk GmbH & Co.KG;Fa. Kavuk GmbH & Co.KG;02537/8326862;14469;Potsdam;Russische Kolonie 1464
+2032;;;Emshoff gGmbH;Firma;Fa.;Emshoff gGmbH;Fa. Emshoff gGmbH;03798/5407411;14469;Potsdam;Weinbergstr. 8757
+2033;Zlatko;Kawan;;;Zlatko;Kawan;Zlatko Kawan;08412/2988968;14473;Potsdam;Hermannswerder 2331
+2034;Katharina;Cordts;;;Katharina;Cordts;Katharina Cordts;05077/1315048;14776;Brandenburg;Fasanenbogen 1107
+2035;;;Petruchin e.V.;Firma;Fa.;Petruchin e.V.;Fa. Petruchin e.V.;02513/4250791;14476;Potsdam;Seestr. 3677
+2036;Reinder;Kuhlencord;;;Reinder;Kuhlencord;Reinder Kuhlencord;04837/512390;14480;Potsdam;Gagarinstr. 5092
+2038;;;Seygesellschaft mbH;Firma;Fa.;Seygesellschaft mbH;Fa. Seygesellschaft mbH;09109/8969338;14476;Potsdam;Plantagenweg 8008
+2039;;;Sauler AG;Firma;Fa.;Sauler AG;Fa. Sauler AG;08314/9006166;14770;Brandenburg;Am Neuendorfer Sand 8441
+2043;;;Schoubyegesellschaft mbH;Firma;Fa.;Schoubyegesellschaft mbH;Fa. Schoubyegesellschaft mbH;05268/2551394;14478;Potsdam;Magnus-Zeller-Platz 1924
+2045;;;Pankonin gGmbH;Firma;Fa.;Pankonin gGmbH;Fa. Pankonin gGmbH;04732/2533665;14641;Wustermark;
+2046;Annemaria;Friedewald;;;Annemaria;Friedewald;Annemaria Friedewald;02046/6333970;14770;Brandenburg;Bauhofstr. 4844
+2050;Ernest;Eloo;;;Ernest;Eloo;Ernest Eloo;03908/9606617;14772;Brandenburg;Felsbergstr. 3896
+2051;;;Ehrlich GbR;Firma;Fa.;Ehrlich GbR;Fa. Ehrlich GbR;05962/8555675;14482;Potsdam;Plantagenstr. 16
+2052;Michaela;Hildmann;;;Michaela;Hildmann;Michaela Hildmann;08706/527205;14662;Mühlenberge;
+2053;;;Kutzke e.V.;Firma;Fa.;Kutzke e.V.;Fa. Kutzke e.V.;07119/2278278;14476;Potsdam;Turmfalkenweg 9912
+2054;;;Mies e.V.;Firma;Fa.;Mies e.V.;Fa. Mies e.V.;08726/3346859;14469;Potsdam;GA AM LINDSTEDTER TOR 138
+2056;;;Kinzen gGmbH;Firma;Fa.;Kinzen gGmbH;Fa. Kinzen gGmbH;09118/9988789;14480;Potsdam;Gaußstr. 47
+2057;Marga;Wollmann;;;Marga;Wollmann;Marga Wollmann;04789/959397;14469;Potsdam;Am Kirchblick 3649
+2058;;;Shires e.V.;Firma;Fa.;Shires e.V.;Fa. Shires e.V.;09008/8804856;14772;Brandenburg;Rosa-Luxemburg-Allee 60
+2059;;;Olygesellschaft mbH;Firma;Fa.;Olygesellschaft mbH;Fa. Olygesellschaft mbH;08667/5392734;14774;Brandenburg;Am Südtor 3
+2060;Lenore;Pok;;;Lenore;Pok;Lenore Pok;02463/9583069;14906;Jueterbog;
+2061;;;Dubuygesellschaft mbH;Firma;Fa.;Dubuygesellschaft mbH;Fa. Dubuygesellschaft mbH;04993/7396604;14770;Brandenburg;Neuendorfer Str. 41
+2063;;;Kirchberg GbR;Firma;Fa.;Kirchberg GbR;Fa. Kirchberg GbR;05076/3348558;14770;Brandenburg;Werner-Seelenbinder-Str. 5172
+2064;Kasim;Gergs;;;Kasim;Gergs;Kasim Gergs;06455/9307557;14469;Potsdam;An der Roten Kaserne 9666
+2065;Myrtha;Kurmann;;;Myrtha;Kurmann;Myrtha Kurmann;09274/8529456;14482;Potsdam;Rudolf-Breitscheid-Str. 628
+2068;Rosmarie;Marhuth;;;Rosmarie;Marhuth;Rosmarie Marhuth;07054/6827148;14482;Potsdam;Lutherplatz 6271
+2069;Atakan;Calabritto;;;Atakan;Calabritto;Atakan Calabritto;09264/8874348;14469;Potsdam;CARL CHRISTIAN HORVARTH STR 6557
+2072;Abbas;Deest;;;Abbas;Deest;Abbas Deest;09454/1472258;14770;Brandenburg;ALTSTAEDTISCHE WASSERTOR STR 2737
+2075;;;Borsos GmbH & Co.KG;Firma;Fa.;Borsos GmbH & Co.KG;Fa. Borsos GmbH & Co.KG;03630/5055692;14476;Potsdam;Pappelallee 798
+2076;;;Dlouhygesellschaft mbH;Firma;Fa.;Dlouhygesellschaft mbH;Fa. Dlouhygesellschaft mbH;02701/2757707;14469;Potsdam;GA AM LINDSTEDTER TOR 138
+2077;Tusnelda;Gretemann;;;Tusnelda;Gretemann;Tusnelda Gretemann;05327/6954529;14473;Potsdam;Friedrich-Engels-Str. 1
+2079;;;Cevahingesellschaft mbH;Firma;Fa.;Cevahingesellschaft mbH;Fa. Cevahingesellschaft mbH;04980/9345305;14469;Potsdam;GA AM PANNENBERG 4321
+2080;Dimitrios;Spiegeler;;;Dimitrios;Spiegeler;Dimitrios Spiegeler;06958/1269448;14471;Potsdam;Im Wildpark 9202
+2083;Rod;Heinbuch;;;Rod;Heinbuch;Rod Heinbuch;03586/1779864;14473;Potsdam;Heinrich-Mann-Allee 16
+2084;Reimund;Mogler;;;Reimund;Mogler;Reimund Mogler;02682/480415;14774;Brandenburg;Parkstr. 2774
+2085;;;Niederl e.V.;Firma;Fa.;Niederl e.V.;Fa. Niederl e.V.;05672/1802696;14776;Brandenburg;Am Rehhagen 6315
+2090;Katleen;Malbeck;;;Katleen;Malbeck;Katleen Malbeck;07868/8826860;14776;Brandenburg;Linienstr. 8558
+2091;Doreen;Suojanen;;;Doreen;Suojanen;Doreen Suojanen;04715/9035189;14532;Teltow;
+2092;;;Tobaben AG;Firma;Fa.;Tobaben AG;Fa. Tobaben AG;06711/9461840;14774;Brandenburg;Schloßstr. 6849
+2093;Maryanne;Camuglia;;;Maryanne;Camuglia;Maryanne Camuglia;03353/5556074;14776;Brandenburg;Am Jakobsgraben 5795
+2096;Otfried;Ochs;;;Otfried;Ochs;Otfried Ochs;06695/4192172;14478;Potsdam;Biberkiez 6736
+2097;Hainer;Habner;;;Hainer;Habner;Hainer Habner;06145/6880857;14473;Potsdam;Ulrich-von-Hutten-Str. 9916
+2098;;;Efilti gGmbH;Firma;Fa.;Efilti gGmbH;Fa. Efilti gGmbH;07251/3515313;14770;Brandenburg;Zanderstr. 1
+2099;;;Kubasik AG;Firma;Fa.;Kubasik AG;Fa. Kubasik AG;02549/9474305;14776;Brandenburg;Immenweg 2742
+2100;Stewart;Lechler;;;Stewart;Lechler;Stewart Lechler;03799/936900;14471;Potsdam;Zeppelinstr. 51
+2101;Gabi;Recklies;;;Gabi;Recklies;Gabi Recklies;08475/3957477;14774;Brandenburg;Am Südtor 3
+2102;Burk;Kunst;;;Burk;Kunst;Burk Kunst;04831/7650104;14776;Brandenburg;WUSTER RING 9544
+2104;Erfried;Adelhof;;;Erfried;Adelhof;Erfried Adelhof;07285/6384786;14476;Potsdam;Ebereschenweg 9434
+2105;;;Finselberger AG;Firma;Fa.;Finselberger AG;Fa. Finselberger AG;02678/2836448;14480;Potsdam;Hertha-Thiele-Weg 1502
+2106;;;Rubach GmbH & Co.KG;Firma;Fa.;Rubach GmbH & Co.KG;Fa. Rubach GmbH & Co.KG;08404/8560101;14467;Potsdam;Burgstr. 9360
+2107;Gorch;Pinnenberg;;;Gorch;Pinnenberg;Gorch Pinnenberg;04805/1314977;14776;Brandenburg;Berliner Str. 2
+2113;;;Brennekegesellschaft mbH;Firma;Fa.;Brennekegesellschaft mbH;Fa. Brennekegesellschaft mbH;08138/4877206;14480;Potsdam;GA AM HIRTENGRABEN 3297
+2115;;;Ramke AG;Firma;Fa.;Ramke AG;Fa. Ramke AG;09855/9028324;14612;Falkensee;
+2120;Madan;Kujtkowski;;;Madan;Kujtkowski;Madan Kujtkowski;05196/812324;14469;Potsdam;Birkenstr. 7723
+2121;Joachim;Aktas;;;Joachim;Aktas;Joachim Aktas;02761/8184090;14770;Brandenburg;Kapellenstr. 3667
+2122;;;Machalski AG;Firma;Fa.;Machalski AG;Fa. Machalski AG;07913/8441335;14772;Brandenburg;Am Alten Gutshof 114
+2126;;;Unteutsch GmbH;Firma;Fa.;Unteutsch GmbH;Fa. Unteutsch GmbH;09112/754142;14770;Brandenburg;Am Mariengrund 6468
+2129;Eila;Ladurner;;;Eila;Ladurner;Eila Ladurner;04702/2090075;14770;Brandenburg;Dosseweg 6345
+2132;;;Joersgesellschaft mbH;Firma;Fa.;Joersgesellschaft mbH;Fa. Joersgesellschaft mbH;05227/2330484;14482;Potsdam;Lankestr. 7716
+2134;Notker;Hektor;;;Notker;Hektor;Notker Hektor;09520/5623583;14774;Brandenburg;Kiaustr. 3
+2139;;;Schmalzl GmbH;Firma;Fa.;Schmalzl GmbH;Fa. Schmalzl GmbH;09129/1540835;14776;Brandenburg;Neue Mühle 8414
+2140;;;Vester GmbH & Co.KG;Firma;Fa.;Vester GmbH & Co.KG;Fa. Vester GmbH & Co.KG;04570/7642607;14471;Potsdam;Schlüterstr. 6065
+2141;;;Ehrenforth GbR;Firma;Fa.;Ehrenforth GbR;Fa. Ehrenforth GbR;09713/81516;14482;Potsdam;Rudolf-Breitscheid-Str. 17
+2142;;;Dylonggesellschaft mbH;Firma;Fa.;Dylonggesellschaft mbH;Fa. Dylonggesellschaft mbH;03674/8762211;14482;Potsdam;ALFRED HIRSCHMEIER STR 4284
+2143;;;Lopattagesellschaft mbH;Firma;Fa.;Lopattagesellschaft mbH;Fa. Lopattagesellschaft mbH;09915/9059443;14772;Brandenburg;Rosa-Luxemburg-Allee 60
+2145;Aretta;Schlesier;;;Aretta;Schlesier;Aretta Schlesier;05642/5030833;14469;Potsdam;Strandweg 2359
+2146;;;Oberholz GmbH;Firma;Fa.;Oberholz GmbH;Fa. Oberholz GmbH;08296/2790933;14476;Potsdam;Freiheitstr. 2781
+2147;;;Tounians GbR;Firma;Fa.;Tounians GbR;Fa. Tounians GbR;03227/9210033;14467;Potsdam;Obere Planitz 8210
+2148;;;Wittenauer GbR;Firma;Fa.;Wittenauer GbR;Fa. Wittenauer GbR;04348/3898691;14776;Brandenburg;Sankt-Annen-Str. 4511
+2153;Friedrich;Balsamo;;;Friedrich;Balsamo;Friedrich Balsamo;07243/1723768;14469;Potsdam;Marquardter Chaussee 4265
+2156;;;Passig e.V.;Firma;Fa.;Passig e.V.;Fa. Passig e.V.;04954/7364659;14199;Berlin;Friedrichshaller Str. 7
+2157;;;Ornberger GmbH;Firma;Fa.;Ornberger GmbH;Fa. Ornberger GmbH;06755/5137675;14476;Potsdam;Fercher Str. 1030
+2161;Wladyslaw;Gubsch;;;Wladyslaw;Gubsch;Wladyslaw Gubsch;08526/7608536;14774;Brandenburg;Schulstr. 2
+2162;Egmund;Rosselli;;;Egmund;Rosselli;Egmund Rosselli;07220/7205165;14770;Brandenburg;Am Mittelfeld 2961
+2163;Uljana;Nebermann;;;Uljana;Nebermann;Uljana Nebermann;02175/181877;14774;Brandenburg;Am Hang 6007
+2165;Anda;Vilinskiy;;;Anda;Vilinskiy;Anda Vilinskiy;05434/6636393;14480;Potsdam;Neuendorfer Str. 6
+2175;;;Stroba GmbH i.G.;Firma;Fa.;Stroba GmbH i.G.;Fa. Stroba GmbH i.G.;09621/8874358;14471;Potsdam;Kantstr. 922
+2176;;;Pesikan GmbH & Co.KG;Firma;Fa.;Pesikan GmbH & Co.KG;Fa. Pesikan GmbH & Co.KG;08213/6469106;14482;Potsdam;Zarah-Leander-Str. 3625
+2177;;;Bobrzik GmbH;Firma;Fa.;Bobrzik GmbH;Fa. Bobrzik GmbH;05413/8412100;14774;Brandenburg;Am Havelgut 2626
+2180;;;Kriwat GmbH;Firma;Fa.;Kriwat GmbH;Fa. Kriwat GmbH;04720/3437070;14482;Potsdam;Scheffelstr. 244
+2181;Renold;Derecki;;;Renold;Derecki;Renold Derecki;06333/3821356;14482;Potsdam;GA NUTHETAL 6519
+2182;;;Rohan gGmbH;Firma;Fa.;Rohan gGmbH;Fa. Rohan gGmbH;06799/4479007;14480;Potsdam;Gaußstr. 7488
+2183;;;Zdrzewielski AG & Co.KG;Firma;Fa.;Zdrzewielski AG & Co.KG;Fa. Zdrzewielski AG & Co.KG;07949/3273816;14476;Potsdam;DREI MOHREN 5269
+2184;;;Brechlin e.V.;Firma;Fa.;Brechlin e.V.;Fa. Brechlin e.V.;05101/4457502;14199;Berlin;Borkumer Str. 29
+2185;;;Kraeft GbR;Firma;Fa.;Kraeft GbR;Fa. Kraeft GbR;06166/1955381;14480;Potsdam;Fritz-Lang-Str. 3056
+2187;Cassian;Schweickhardt;;;Cassian;Schweickhardt;Cassian Schweickhardt;07508/1531570;14476;Potsdam;Hainbuchenweg 1453
+2189;Ergun;Marweg;;;Ergun;Marweg;Ergun Marweg;06670/5725421;14772;Brandenburg;Max-Herm-Str. 2710
+2196;;;Floedergesellschaft mbH;Firma;Fa.;Floedergesellschaft mbH;Fa. Floedergesellschaft mbH;09976/8630080;14641;Ketzin;
+2211;Jandia;Schossau;;;Jandia;Schossau;Jandia Schossau;04215/1419193;14199;Berlin;Ruhlaer Str. 3755
+2214;;;Klaeke gGmbH;Firma;Fa.;Klaeke gGmbH;Fa. Klaeke gGmbH;04155/1294221;14482;Potsdam;Daimlerstr. 8185
+2217;Viktoriya;Tunze;;;Viktoriya;Tunze;Viktoriya Tunze;06997/809847;14469;Potsdam;Golmer Chaussee 4576
+2219;Angeline;Walkusch;;;Angeline;Walkusch;Angeline Walkusch;09926/9003518;14776;Brandenburg;Krahner Str. 3290
+2221;Israfil;Schustereit;;;Israfil;Schustereit;Israfil Schustereit;03084/8613223;14480;Potsdam;Margarete-Buber-Neumann-Str. 5596
+2226;;;Wittmoser GmbH i.G.;Firma;Fa.;Wittmoser GmbH i.G.;Fa. Wittmoser GmbH i.G.;03811/1024887;14774;Brandenburg;Falkenstr. 7082
+2228;;;Benthack gGmbH;Firma;Fa.;Benthack gGmbH;Fa. Benthack gGmbH;09272/1893768;14469;Potsdam;Nedlitzer Str. 6876
+2230;Asser;Herklotz;;;Asser;Herklotz;Asser Herklotz;03624/730296;14480;Potsdam;Turmstr. 9047
+2231;Roy;Kunath;;;Roy;Kunath;Roy Kunath;02366/675341;14774;Brandenburg;Am Görneweg 3521
+2232;;;Zernicke e.V.;Firma;Fa.;Zernicke e.V.;Fa. Zernicke e.V.;02715/7109191;14482;Potsdam;Horstweg 96
+2233;Andrea;Mustermann;;;Andrea;Mustermann;Andrea Mustermann;03939/1324551;14478;Potsdam;Meisenweg 3031
+2234;Hariolf;Wostry;;;Hariolf;Wostry;Hariolf Wostry;03951/5780768;14469;Potsdam;Im Park Sanssouci 4346
+2238;;;Lamann GmbH i.G.;Firma;Fa.;Lamann GmbH i.G.;Fa. Lamann GmbH i.G.;09495/406813;14469;Potsdam;Am Hämphorn 301
+2240;;;Kesen GmbH & Co.KG;Firma;Fa.;Kesen GmbH & Co.KG;Fa. Kesen GmbH & Co.KG;09027/6249087;14199;Berlin;Falkensteinerstr. 3
+2241;Kamal;Kleinewalter;;;Kamal;Kleinewalter;Kamal Kleinewalter;09093/5311805;14478;Potsdam;Pappelhof 230
+2242;Sigrit;Bernet;;;Sigrit;Bernet;Sigrit Bernet;09822/6656826;14776;Brandenburg;Otto-Sidow-Str. 12
+2245;Lelia;Schickel;;;Lelia;Schickel;Lelia Schickel;04773/5098922;14776;Brandenburg;Alfred-Messel-Platz 7866
+2247;Tiziana;Klouten;;;Tiziana;Klouten;Tiziana Klouten;07850/4035962;14473;Potsdam;GA STERNSCHANZE 3667
+2249;Jasmina;Woitek;;;Jasmina;Woitek;Jasmina Woitek;02741/1610667;14776;Brandenburg;Jacobstr. 4
+2250;Helmar;Putzier;;;Helmar;Putzier;Helmar Putzier;08209/8875259;14776;Brandenburg;Belziger Chaussee 1599
+2252;;;Amoah e.V.;Firma;Fa.;Amoah e.V.;Fa. Amoah e.V.;05575/5136072;14774;Brandenburg;Gartenstr. 5599
+2253;Alkuin;Toksoez;;;Alkuin;Toksoez;Alkuin Toksoez;05453/86013;14469;Potsdam;Am Weißen See 8488
+2254;Raino;Gust;;;Raino;Gust;Raino Gust;06688/6570247;14476;Potsdam;Seepromenade 573
+2255;Mortimer;Thiess;;;Mortimer;Thiess;Mortimer Thiess;09364/3834321;14469;Potsdam;Ruinenbergstr. 6816
+2257;Lilly;Thiem;;;Lilly;Thiem;Lilly Thiem;06561/8074817;14469;Potsdam;Wiesenrain 6596
+2258;Thilda;Agramunt;;;Thilda;Agramunt;Thilda Agramunt;04638/1884815;14469;Potsdam;Birkenstr. 7723
+2259;Rachel;Bassy;;;Rachel;Bassy;Rachel Bassy;04054/4441985;14467;Potsdam;Schiffbauergasse 3721
+2260;Eugene;Elscher;;;Eugene;Elscher;Eugene Elscher;04368/5868258;14471;Potsdam;Immenseestr. 3587
+2261;;;Hoickgesellschaft mbH;Firma;Fa.;Hoickgesellschaft mbH;Fa. Hoickgesellschaft mbH;07150/1598051;14774;Brandenburg;Bahnhofstr. 3
+2262;Bartosz;Winzer;;;Bartosz;Winzer;Bartosz Winzer;08397/8802115;14471;Potsdam;GA ALTE MUEHLE 5818
+2263;Heronima;Selkow;;;Heronima;Selkow;Heronima Selkow;08711/6164224;14772;Brandenburg;Mendelssohnstr. 729
+2264;Kei;Lafferthon;;;Kei;Lafferthon;Kei Lafferthon;09337/9242712;14476;Potsdam;Am Park 8880
+2267;Linda;Skodda;;;Linda;Skodda;Linda Skodda;02708/2891126;14776;Brandenburg;Potsdamer Str. 1
+2270;Maryam;Neverla;;;Maryam;Neverla;Maryam Neverla;08985/3424838;14770;Brandenburg;Oskar-Wiederholz-Str. 9970
+2272;Leonhard;Paglotke;;;Leonhard;Paglotke;Leonhard Paglotke;05738/8690661;14480;Potsdam;Erich-Pommer-Str. 5627
+2274;Kenan;Chamroukh;;;Kenan;Chamroukh;Kenan Chamroukh;03307/8002093;14776;Brandenburg;Paterdamm 3116
+2280;;;Yesiloez GmbH;Firma;Fa.;Yesiloez GmbH;Fa. Yesiloez GmbH;09378/7155620;14476;Potsdam;DRIFT WEG 3583
+2283;;;Togmat AG & Co.KG;Firma;Fa.;Togmat AG & Co.KG;Fa. Togmat AG & Co.KG;03067/2996637;14776;Brandenburg;Buchenweg 54
+2284;Wittich;Eitzenberger;;;Wittich;Eitzenberger;Wittich Eitzenberger;09539/5357148;14482;Potsdam;Baldurstr. 2251
+2293;;;Bradt gGmbH;Firma;Fa.;Bradt gGmbH;Fa. Bradt gGmbH;09334/9841112;14471;Potsdam;Stormstr. 9863
+2997;Jorn;Vorpagel;;;Jorn;Vorpagel;Jorn Vorpagel;09923/6381166;14199;Berlin;Davoser Str. 9
+4004;;;Saeri GmbH i.G.;Firma;Fa.;Saeri GmbH i.G.;Fa. Saeri GmbH i.G.;09241/8027905;14774;Brandenburg;Charlottenhof 5385
+4013;Sille;Broz;;;Sille;Broz;Sille Broz;09500/4486351;14772;Brandenburg;Brahmsstr. 5
+4014;;;Danias GmbH & Co.KG;Firma;Fa.;Danias GmbH & Co.KG;Fa. Danias GmbH & Co.KG;09576/6880851;14776;Brandenburg;Franz-Ziegler-Str. 3965
+5004;Varvara;Lebedicker;;;Varvara;Lebedicker;Varvara Lebedicker;02597/9019843;14770;Brandenburg;Schifferring 7700
+6888;Björn;Keding;;;Björn;Keding;Björn Keding;06132/3543339;14774;Brandenburg;Wendseeufer 9700
+10012;Markus;Schulze;Malerei Schulze;Firma;Markus;Malerei Schulze;Markus Malerei Schulze;05855/5919550;14774;Brandenburg;Patendamm 10
+10022;;;Ihleburg GmbH i.G.;Firma;Fa.;Ihleburg GmbH i.G.;Fa. Ihleburg GmbH i.G.;09551/7351196;14482;Potsdam;Baberowweg 3863
+10041;;;Froidl GmbH & Co.KG;Firma;Fa.;Froidl GmbH & Co.KG;Fa. Froidl GmbH & Co.KG;02580/3882987;14776;Brandenburg;Wredowstr. 5154
+10047;;;Nedelka GmbH i.G.;Firma;Fa.;Nedelka GmbH i.G.;Fa. Nedelka GmbH i.G.;07698/582108;14469;Potsdam;Am Sandberg 2141
+10052;Renko;Reppenhorst;;;Renko;Reppenhorst;Renko Reppenhorst;08660/5477206;14776;Brandenburg;Wilhelmsdorfer Str. 4
+10059;;;Fuest GmbH i.G.;Firma;Fa.;Fuest GmbH i.G.;Fa. Fuest GmbH i.G.;04930/4369605;14776;Brandenburg;Neue Mühle 8414
+10061;;;Olias AG;Firma;Fa.;Olias AG;Fa. Olias AG;09535/7846452;14482;Potsdam;Bruno-H.-Bürgel-Str. 4
+10064;Rotraud;Mindorf;;;Rotraud;Mindorf;Rotraud Mindorf;07448/9753234;14482;Potsdam;Karl-Liebknecht-Str. 72
+10065;Gundel;Walde;;;Gundel;Walde;Gundel Walde;07053/2783617;14467;Potsdam;Jägerstr. 6636
+10077;Erold;Bilitewski;;;Erold;Bilitewski;Erold Bilitewski;06642/3884099;14469;Potsdam;FERDINAND JUEHLKE WEG 8017
+10112;Annetilde;Kalmring;;;Annetilde;Kalmring;Annetilde Kalmring;02320/5441827;14776;Brandenburg;Wollenweberstr. 8
+10113;;;Lekic GmbH & Co.KG;Firma;Fa.;Lekic GmbH & Co.KG;Fa. Lekic GmbH & Co.KG;06773/5759579;14482;Potsdam;Daimlerstr. 3
+10115;Ditha;Ferner;;;Ditha;Ferner;Ditha Ferner;06113/296183;14476;Potsdam;Turmfalkenweg 9912
+10129;;;Wenkhausen GmbH & Co.KG;Firma;Fa.;Wenkhausen GmbH & Co.KG;Fa. Wenkhausen GmbH & Co.KG;09737/4053589;14469;Potsdam;Fritz-von-der-Lancken-Str. 4874
+10153;Marcial;Schoras;;;Marcial;Schoras;Marcial Schoras;03472/198506;14476;Potsdam;Grüner Weg 3025
+10183;;;Mozkus GbR;Firma;Fa.;Mozkus GbR;Fa. Mozkus GbR;04850/4802234;14478;Potsdam;Am Schlangenfenn 1371
+10194;Sandrine;Rauschmayer;;;Sandrine;Rauschmayer;Sandrine Rauschmayer;02126/4325785;14469;Potsdam;Hermann-Mattern-Promenade 5212
+10201;;;Radenovic e.V.;Firma;Fa.;Radenovic e.V.;Fa. Radenovic e.V.;03197/1401676;14467;Potsdam;Hans-Thoma-Str. 8357
+10211;;;Beinkinstadt gGmbH;Firma;Fa.;Beinkinstadt gGmbH;Fa. Beinkinstadt gGmbH;04831/2713013;14772;Brandenburg;Am Alten Gutshof 114
+10216;;;Raoui GmbH i.G.;Firma;Fa.;Raoui GmbH i.G.;Fa. Raoui GmbH i.G.;06960/132779;14480;Potsdam;Steinstr. 58
+10221;Azmi;Kowalko;;;Azmi;Kowalko;Azmi Kowalko;07962/9994240;14469;Potsdam;FRIEDRICH KUNERT WEG 3389
+10223;Bruno;Busse;;;Bruno;Busse;Bruno Busse;06675/7675082;14823;Rabenstein;
+10224;;;Hengst GbR;Firma;Fa.;Hengst GbR;Fa. Hengst GbR;06336/3590165;14482;Potsdam;Otterweg 7555
+10244;;;Pommerehn GmbH i.G.;Firma;Fa.;Pommerehn GmbH i.G.;Fa. Pommerehn GmbH i.G.;07988/5810183;14480;Potsdam;Johannes-Kepler-Platz 6475
+10254;Hasi;Wendorff;;;Hasi;Wendorff;Hasi Wendorff;06819/3766629;14774;Brandenburg;Königsmarckstr. 1493
+10292;;;Blaedtke GmbH i.G.;Firma;Fa.;Blaedtke GmbH i.G.;Fa. Blaedtke GmbH i.G.;05375/9287730;14469;Potsdam;Altes Rad 8221
+10310;;;Pueschel e.V.;Firma;Fa.;Pueschel e.V.;Fa. Pueschel e.V.;04859/9257753;14467;Potsdam;Behlertstr. 7085
+10315;Henni;Varbelow;;;Henni;Varbelow;Henni Varbelow;09890/8836869;14778;Planebruch;
+10321;Bertha;Wollburg;;;Bertha;Wollburg;Bertha Wollburg;07474/8676229;14482;Potsdam;Jahnstr. 6739
+10322;Curtis;Budweit;;;Curtis;Budweit;Curtis Budweit;02835/1327824;14715;Milower Land;
+10324;Merit;Worschech;;;Merit;Worschech;Merit Worschech;04469/7482359;14774;Brandenburg;Große Mühlenstr. 5412
+10331;Darlene;Maroske;;;Darlene;Maroske;Darlene Maroske;04165/7863336;14774;Brandenburg;Patendamm 6123
+10334;;;Laatsch GmbH & Co.KG;Firma;Fa.;Laatsch GmbH & Co.KG;Fa. Laatsch GmbH & Co.KG;03055/5782382;14482;Potsdam;Weberplatz 2127
+10376;;;Edel gGmbH;Firma;Fa.;Edel gGmbH;Fa. Edel gGmbH;03347/6684025123l!;14482;Potsdam;Hermann-Maaß-Str. 6708
+10385;Willida;Bomme;;;Willida;Bomme;Willida Bomme;02406/8254265;14932;Luckenwalde;
+10389;;;Burgdorf GmbH;Firma;Fa.;Burgdorf GmbH;Fa. Burgdorf GmbH;07377/2035052;14776;Brandenburg;Linienstr. 8558
+10390;;;Gravanisgesellschaft mbH;Firma;Fa.;Gravanisgesellschaft mbH;Fa. Gravanisgesellschaft mbH;06990/4040857;14473;Potsdam;Albert-Einstein-Str. 22
+10448;;;Schmitzer gGmbH;Firma;Fa.;Schmitzer gGmbH;Fa. Schmitzer gGmbH;05456/4635326;14469;Potsdam;FRIEDRICH KUNERT WEG 3389
+10466;;;Colmorgen gGmbH;Firma;Fa.;Colmorgen gGmbH;Fa. Colmorgen gGmbH;03118/2602706;14770;Brandenburg;August-Bebel-Str. 7318
+10485;Rasmus;Borchardt;;;Rasmus;Borchardt;Rasmus Borchardt;07381/4872260;14776;Brandenburg;Neumanns Vorwerk 8388
+10498;Faust;Straessle;;;Faust;Straessle;Faust Straessle;08808/2748032;14778;Brandenburg;KOLONISTENBERG 4008
+10538;;;Lenzing AG;Firma;Fa.;Lenzing AG;Fa. Lenzing AG;09232/4437848;14480;Potsdam;Lise-Meitner-Str. 7826
+10546;Tiana;Schmieding;;;Tiana;Schmieding;Tiana Schmieding;09940/9172895;14469;Potsdam;GA KURZES FELD 9827
+10551;;;Cupala GmbH & Co.KG;Firma;Fa.;Cupala GmbH & Co.KG;Fa. Cupala GmbH & Co.KG;08690/4494613;14469;Potsdam;GA AN DEM KATHARINENHOLZ 763
+10567;;;Helbing GbR;Firma;Fa.;Helbing GbR;Fa. Helbing GbR;04505/151461;14701;Rathenow;
+10569;Dalmacio;Neufinck;;;Dalmacio;Neufinck;Dalmacio Neufinck;02528/3608281;14480;Potsdam;Fuldaer Str. 3238
+10578;;;Rochmann GmbH i.G.;Firma;Fa.;Rochmann GmbH i.G.;Fa. Rochmann GmbH i.G.;07789/7021082;14482;Potsdam;Benzstr. 9529
+10596;Waldtraut;Weuste;;;Waldtraut;Weuste;Waldtraut Weuste;07153/2219565;14772;Brandenburg;Gertraudenstr. 4543
+10619;Aive;Vlasak;;;Aive;Vlasak;Aive Vlasak;04335/1308357;14480;Potsdam;Großbeerenstr. 6302
+10630;;;Dettfurth e.V.;Firma;Fa.;Dettfurth e.V.;Fa. Dettfurth e.V.;08419/208697;14669;Ketzin;
+10631;;;Rosacker e.V.;Firma;Fa.;Rosacker e.V.;Fa. Rosacker e.V.;09109/4882463;14552;Nuthetal;
+10642;Malik;Stolingwa;;;Malik;Stolingwa;Malik Stolingwa;09987/4898319;14480;Potsdam;Conrad-Veidt-Str. 164
+10645;Lucian;Ketteringham;;;Lucian;Ketteringham;Lucian Ketteringham;03396/8036131;14478;Potsdam;Saarmunder Str. 1319
+10656;Murtaza;Grassl;;;Murtaza;Grassl;Murtaza Grassl;09657/2481246;14662;Mühlenberge;
+10661;;;Oulitski GmbH i.G.;Firma;Fa.;Oulitski GmbH i.G.;Fa. Oulitski GmbH i.G.;09394/8379167;14469;Potsdam;Weinbergstr. 8757
+10677;;;Leidner gGmbH;Firma;Fa.;Leidner gGmbH;Fa. Leidner gGmbH;09003/9955532;14469;Potsdam;Schlehenstieg 8246
+10687;Arzu;Valdmanis;;;Arzu;Valdmanis;Arzu Valdmanis;04634/4465929;14480;Potsdam;Niels-Bohr-Ring 607
+10694;;;Korzonek GmbH;Firma;Fa.;Korzonek GmbH;Fa. Korzonek GmbH;09702/4573218;14471;Potsdam;Im Wildpark 9202
+10699;;;Kutaschow GmbH i.G.;Firma;Fa.;Kutaschow GmbH i.G.;Fa. Kutaschow GmbH i.G.;08312/1446223;14476;Potsdam;Helmut-Just-Str. 6518
+10702;;;Canther AG & Co.KG;Firma;Fa.;Canther AG & Co.KG;Fa. Canther AG & Co.KG;09593/7693238;14467;Potsdam;Hebbelstr. 2
+10704;;;Jbaragesellschaft mbH;Firma;Fa.;Jbaragesellschaft mbH;Fa. Jbaragesellschaft mbH;09068/959774;14774;Brandenburg;Zu den Schinderfichten 7318
+10724;Wiegand;Braczyk;;;Wiegand;Braczyk;Wiegand Braczyk;06936/9405047;14476;Potsdam;Landhausstr. 6354
+10731;;;Handeschin GmbH i.G.;Firma;Fa.;Handeschin GmbH i.G.;Fa. Handeschin GmbH i.G.;02995/8711773;14478;Potsdam;Bisamkiez 4102
+10747;;;Ulbricht GbR;Firma;Fa.;Ulbricht GbR;Fa. Ulbricht GbR;04044/2634772;14467;Potsdam;Behlertstr. 7085
+10749;Gudrun;Bardt;;;Gudrun;Bardt;Gudrun Bardt;05977/8714689;14770;Brandenburg;Brielower Str. 23
+10751;;;Andritzki GmbH i.G.;Firma;Fa.;Andritzki GmbH i.G.;Fa. Andritzki GmbH i.G.;09528/8547317;14776;Brandenburg;Neustädtische Fischerstr. 2
+10769;;;Gmeiner AG;Firma;Fa.;Gmeiner AG;Fa. Gmeiner AG;02779/3430401;14469;Potsdam;GA KURZES FELD 9827
+10770;;;Liburg GmbH & Co.KG;Firma;Fa.;Liburg GmbH & Co.KG;Fa. Liburg GmbH & Co.KG;05859/3782489;14480;Potsdam;Am Friedhof 7787
+10772;;;Hosseini GmbH & Co.KG;Firma;Fa.;Hosseini GmbH & Co.KG;Fa. Hosseini GmbH & Co.KG;03867/8676520;14772;Brandenburg;Prager Str. 3981
+10810;Welda;Lissmann;;;Welda;Lissmann;Welda Lissmann;09545/4611266;14776;Brandenburg;Tismarstr. 437
+10831;;;Dilhergesellschaft mbH;Firma;Fa.;Dilhergesellschaft mbH;Fa. Dilhergesellschaft mbH;08562/7955598;14776;Brandenburg;Wilhelmsdorfer Str. 5258
+10833;Sigrit;Weinknecht;;;Sigrit;Weinknecht;Sigrit Weinknecht;03722/1617178;14772;Brandenburg;Brahmsstr. 4
+10846;Klauspeter;Viehweg;;;Klauspeter;Viehweg;Klauspeter Viehweg;06807/1200417;14476;Potsdam;HERMANN KROME WEG 5284
+10856;Yusuf;Bullerdiek;;;Yusuf;Bullerdiek;Yusuf Bullerdiek;08737/1872814;14467;Potsdam;Schopenhauerstr. 15
+10868;;;Baranowska GmbH i.G.;Firma;Fa.;Baranowska GmbH i.G.;Fa. Baranowska GmbH i.G.;02969/3502053;14776;Brandenburg;Tannenweg 2572
+10874;Katherina;Kreymeier;;;Katherina;Kreymeier;Katherina Kreymeier;06289/6457538;14770;Brandenburg;Marienberg 1393
+10879;;;Inklaar GmbH i.G.;Firma;Fa.;Inklaar GmbH i.G.;Fa. Inklaar GmbH i.G.;04239/2320998;14480;Potsdam;Bebraer Str. 8984
+10885;;;Nancken gGmbH;Firma;Fa.;Nancken gGmbH;Fa. Nancken gGmbH;04589/5331934;14770;Brandenburg;Erich-Knauf-Str. 9850
+10887;;;Bilic e.V.;Firma;Fa.;Bilic e.V.;Fa. Bilic e.V.;09794/2166539;14770;Brandenburg;Parduin 6075
+10906;;;Gammelin GbR;Firma;Fa.;Gammelin GbR;Fa. Gammelin GbR;05028/9177472;14473;Potsdam;Küsselstr. 2971
+10907;;;Gagsch gGmbH;Firma;Fa.;Gagsch gGmbH;Fa. Gagsch gGmbH;06602/1632072;14473;Potsdam;An der Vogelwiese 8872
+10913;;;Avenriep GbR;Firma;Fa.;Avenriep GbR;Fa. Avenriep GbR;07617/836650;14469;Potsdam;Max-Eyth-Allee 5857
+10933;;;Rahm AG & Co.KG;Firma;Fa.;Rahm AG & Co.KG;Fa. Rahm AG & Co.KG;04786/7623593;14806;Belzig;
+10934;;;Clementsen gGmbH;Firma;Fa.;Clementsen gGmbH;Fa. Clementsen gGmbH;05515/4163331;14774;Brandenburg;Plauerhof 8221
+10950;Sacha;Amara;;;Sacha;Amara;Sacha Amara;03657/9873049;14199;Berlin;Auguste-Viktoria-Str. 48
+10955;;;Siebner gGmbH;Firma;Fa.;Siebner gGmbH;Fa. Siebner gGmbH;09681/1537733;14532;Stahnsdorf;
+10961;Pia;Kotra;;;Pia;Kotra;Pia Kotra;05868/9579495;14770;Brandenburg;Bayernstr. 18
+10970;;;Radulescu GmbH;Firma;Fa.;Radulescu GmbH;Fa. Radulescu GmbH;06712/9600886;14480;Potsdam;DOROTHEA SCHNEIDER STR 7
+10973;Eberhart;Fiehn;;;Eberhart;Fiehn;Eberhart Fiehn;03016/8884750;14774;Brandenburg;Trennweg 6760
+10975;Tamas;Regenbogen;;;Tamas;Regenbogen;Tamas Regenbogen;06967/1328830;14473;Potsdam;Brauhausberg 6351
+10976;Guido;Yakar;;;Guido;Yakar;Guido Yakar;03363/6812482;14776;Brandenburg;Große Münzenstr. 8
+10977;Lya;Maracke;;;Lya;Maracke;Lya Maracke;02619/4743418;14480;Potsdam;Konrad-Wolf-Allee 9659
+10980;Nynke;Jarmatz;;;Nynke;Jarmatz;Nynke Jarmatz;07077/136911;14776;Brandenburg;Am Kletschenberg 5876
+10989;;;Engler GbR;Firma;Fa.;Engler GbR;Fa. Engler GbR;04834/7258864;14776;Brandenburg;Maerckerstr. 7513
+10991;;;Waslowski GmbH i.G.;Firma;Fa.;Waslowski GmbH i.G.;Fa. Waslowski GmbH i.G.;08944/5654203;14774;Brandenburg;Kiaustr. 6301

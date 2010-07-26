@@ -1,0 +1,18 @@
+<h1>Willkommen im Autohaus</h1>
+
+<p>Du hast folgende M&ouml;glichkeiten</p>
+
+<ul>
+  <% if current_user then %>
+    <% if current_user.admin? %>
+      <li><%= link_to "Kunden-Verwaltung", contacts_url %></li>
+      <li><%= link_to "Aufträge-Verwaltung", orders_url %></li>
+      <li><%= link_to "Auto-Verwaltung", cars_url %></li>
+      <li><%= link_to "Kampagnen-Verwaltung", campaigns_url %></li>
+    <%  else %>
+      <li>Blubb</li>
+    <% end %>
+  <% else %>
+    <li><%= link_to "System-Login", user_sessions_url %></li>
+  <% end %>
+</ul>

@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Language" content="en-us" />
+
+    <title><%= page_title %></title>
+  
+    <%= stylesheet_link_tag "style" %>
+  </head>
+  <body>
+    <div id="head_bar">
+      <div id="head_bar_title"><%= page_title %></div>
+      <div id="head_bar_session">
+        <% if current_user then %>
+          Du bist eingeloggt als <%= link_to current_user.login, account_url %> | <%= link_to "Ausloggen", user_sessions_url, :method => :delete %>
+        <% else %>
+          Du bist nicht eingeloggt
+        <% end %>
+      </div>
+    </div>
+    <%= yield %>
+  </body>
+</html>

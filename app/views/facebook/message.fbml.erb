@@ -1,0 +1,27 @@
+<p></p>
+
+<% unless @facebook_session.user.has_permission?('email') %>
+  <script type="text/javascript">
+    function permission_refresh()
+    {
+    document.setLocation('<%= url_for :action => :index %>');
+    }
+  </script>
+
+  <h1>Berechtigung fehlt</h1>
+
+  <p><%= fb_prompt_permission('email', "Klicke hier, um uns die Erlaubnis zu geben, mit Dir per Mail in Kontakt zu treten", "permission_refresh()")%></p>
+<% else %>
+  <h1>Nachricht an Autohaus verschicken</h1>
+
+  <% form_tag :action => :send_message do %>
+  <p>Betreff:</p>
+  <p><%= text_field_tag 'subject', nil, :size => 72 %></p>
+
+  <p>Nachricht</p>
+  <p><%= text_area_tag 'message', nil, :size => "80x10" %></p>
+
+  <p><%= submit_tag 'Nachricht verschicken' %></p>
+  <% end %>
+<% end %>
+

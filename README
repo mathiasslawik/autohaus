@@ -1,0 +1,35 @@
+== Über Autohaus
+
+"Autohaus" ist eine Prototyp Ruby on Rails - Applikation, welche Use-Cases eines
+fiktiven Autohauses umsetzt. Das Besondere an dieser Applikation ist die Bereit-
+stellung von Facebook-Funktionalitäten in Kombination mit "klassischen" CRM-
+Anwendungsfällen
+
+Diese Applikation ist als Semesterarbeit in der Veranstaltung "ECM-Anwendungen"
+im 2. Semester Master Wirtschaftsinformatik an der HTW Berlin entstanden.
+
+== Installation
+
+Die Autohaus-Applikation wurde unter Ruby on Rails 2.3.8 entwickelt.
+
+Sie benötigt die folgenden Gems:
+* authlogic (Entwickelt unter 2.1.5)
+* will_paginate (Entwickelt unter 2.3.14)
+* facebooker (Entwickelt unter 1.0.74)
+
+Die Datenbank-Migrationen lesen Beispieldaten aus den bereitgestellten
+*.csv - Dateien ein.
+
+== Autor
+
+Copyright (c) 2010 Mathias Slawik
+http://www.matzelworkz.de
+
+== Lizenz
+
+Der Autohaus-Prototyp steht unter der Apache License Version 2.0
+
+== Mehr Informationen
+
+Die folgende Präsentation zeigt die umgesetzten Use-Cases inklusive Screenshots:
+http://www.matzelworkz.de/fileadmin/dateien/ECM/2010.07.26_Realisierte_Use-Cases_Autohaus_Prototyp.pdf

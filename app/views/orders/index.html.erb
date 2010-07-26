@@ -1,0 +1,39 @@
+<% if @contact %>
+  <h1>Liste der Aufträge für <%= @contact.sort %> - <%= link_to "Zurück", edit_contact_url(@contact.id) %></h1>
+<% else %>
+  <h1>Liste aller Aufträge - <%= link_to "Zurück", :controller => :home %></h1>
+<% end %>
+
+<% paginated_section @orders do %>
+<table id="list">
+  <tr id="list_head">
+    <% unless params[:contact_id] %><td><%= link_to_sort 'Kontakt', 'contact.sort' %></td><% end %>
+    <td><%= link_to_sort 'Auftr.-Nr.', 'number' %></td>
+    <td><%= link_to_sort 'Rg-Nr.', 'invoice.number' %></td>
+    <td><%= link_to_sort 'Rg-Typ.', 'invoice.invoice_type' %></td>
+    <td><%= link_to_sort 'Rg-Betr.', 'invoice.amount' %></td>
+    <td><%= link_to_sort 'Rg-Datum', 'invoice.date' %></td>
+    <td><%= link_to_sort 'HU/AU', 'invoice.special ? 1 : 0' %></td>
+    <td><%= link_to_sort 'Kommentare', 'facebook_comments.size' %></td>
+    <td>&nbsp;</td>
+  </tr>
+
+  <% @orders.each do |order| %>
+  <tr class="list_row">
+    <% unless params[:contact_id] %><td><%= order.contact.sort %></td><% end %>
+    <td><%= order.number %></td>
+    <% if order.invoice %>
+    <td><%= order.invoice.number %></td>
+    <td><%= order.invoice.invoice_type %></td>
+    <td style="text-align: right"><%= "%.2f" % (order.invoice.amount / 100.0)%> €</td>
+    <td style="text-align: center"><%= order.invoice.date.strftime("%d.%m.%Y") %></td>
+    <td><%= order.invoice.special ? "Ja" : "Nein" %></td>
+    <% else %>
+    <%= 5.times "<td>&nbsp;</td>" %>
+    <% end %>
+    <td><%= order.facebook_comments.size %></td>
+    <td><%= link_to "Anzeigen", order_url(order.id) %></td>
+  </tr>
+  <% end %>
+</table>
+<% end %>

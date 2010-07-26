@@ -1,0 +1,25 @@
+<p>Hallo, <fb:name uid="loggedinuser" firstnameonly="true" linked="false" useyou="false"/>. Hier sind Deine Autos:</p>
+
+<% paginated_section @cars do %>
+<table id="list">
+  <tr id="list_head">
+    <td><%= link_to_sort 'Kontakt', 'contact.sort' %></td>
+    <td><%= link_to_sort 'Kennzeichen', 'license_number' %></td>
+    <td><%= link_to_sort 'Zulassung', 'registration_date' %></td>
+    <td><%= link_to_sort 'Inspektionsdatum', 'inspection_date' %></td>
+    <td><%= link_to_sort 'KM-Stand', 'mileage' %></td>
+    <td><%= link_to_sort 'Letzter Besuch', 'last_seen' %></td>
+  </tr>
+
+  <% @cars.each do |car| %>
+  <tr class="list_row">
+    <td><%= car.contact.sort %></td>
+    <td><%= car.license_number %></td>
+    <td><%= car.registration_date.strftime("%d.%m.%Y") %></td>
+    <td><%= car.inspection_date.strftime("%d.%m.%Y") %></td>
+    <td><%= car.mileage %> km</td>
+    <td><%= car.last_seen.strftime("%d.%m.%Y") %></td>
+  </tr>
+  <% end %>
+</table>
+<% end %>

@@ -1,0 +1,13 @@
+<fb:header>Autohaus-Applikation <%= if @title then ' - ' + @title else '' end%></fb:header>
+
+<fb:tabs>
+  <fb:tab-item href="<%= url_for :controller => '/facebook', :action => :index %>" title="Home" selected="<%= params[:controller] == 'facebook' && params[:action] == 'index' ? 'true' : false %>" />
+  <fb:tab-item href="<%= url_for :controller => 'facebook/orders' %>" title="Meine Aufträge" selected="<%= params[:controller] == 'facebook/orders' ? 'true' : false %>" />
+  <fb:tab-item href="<%= url_for :controller => 'facebook/cars' %>" title="Autos und Inspektionen" selected="<%= params[:controller] == 'facebook/cars' ? 'true' : false %>" />
+  <fb:tab-item href="<%= url_for :controller => '/facebook', :action => 'invite' %>" title="Weiterempfehlen" selected="<%= params[:action] == 'invite' ? 'true' : false  %>" />
+  <fb:tab-item href="<%= url_for :controller => '/facebook', :action => 'message' %>" title="Nachrichten" selected="<%= params[:action] == 'message' ? 'true' : false  %>" />
+</fb:tabs>
+
+<%= facebook_messages() %>
+
+<%= yield %>

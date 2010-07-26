@@ -1,0 +1,49 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #00628B;
+    font-family: Helvetica, Arial;
+}
+
+div#content {
+    margin: 20px 0px;
+    text-align: left;
+    background-color: #E6E6DC;
+    width: 950px;
+    border: 4px solid #000;
+}
+
+div#head_bar {
+    background-color: #81A594;
+    color: white;
+    padding: 5px;
+    border-bottom: 4px solid black;
+    font-size: small;
+    font-weight: bold;
+    height: 15px;
+}
+
+div#head_bar_title {
+    float: left;
+}
+
+div#head_bar_session {
+    float: right;
+    margin: 0px;
+}
+
+div#flash {
+    background-color: #A4E666;
+}
+
+div#head_bar a, div#head_bar a:visited, div#head_bar a:link, div#head_bar a:active {
+    color: #E6E6DC
+}
+
+a, a:visited, a:link, a:active {
+    color: #2F8CAB;
+}
+
+h1 {
+    font-size: medium;
+}

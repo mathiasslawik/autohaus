@@ -1,0 +1,24 @@
+<% paginated_section companies do %>
+<table id="list">
+  <tr id="list_head">
+    <td><%= link_to_sort 'Kundennummer', 'id' %></td>
+    <td><%= link_to_sort 'Firma', 'title' %></td>
+    <td><%= link_to_sort 'PLZ', 'zipcode' %></td>
+    <td><%= link_to_sort 'Bestellungen', 'order_ids.size' %></td>
+    <td><%= link_to_sort 'FB', 'facebook_account_status' %></td>
+  </tr>
+
+  <% companies.each do |company| %>
+  <tr class="list_row">
+    <td><%= company.id %></td>
+    <td><%= company.title %></td>
+    <td><%= company.zipcode %>&nbsp;<%= company.city %></td>
+    <td><%= company.order_ids.size %></td>
+    <td><%= company.facebook_account_status %></td>
+    <td><%= link_to "Bearbeiten", edit_contact_url(company.id) %></td>
+    <td><%= link_to "Aufträge", contact_orders_url(company.id) %></td>
+    <td><%= link_to "Autos", contact_cars_url(company.id) %></td>
+  </tr>
+  <% end %>
+</table>
+<% end %>

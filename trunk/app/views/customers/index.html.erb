@@ -1,0 +1,7 @@
+<h1>Liste der Kunden (<%= paginate_stats @customers %>)</h1>
+
+<% paginated_section @customers do %>
+  <% @customers.each do |c| %>
+    <p><%= c.given_name %> <%= c.surname %></p>
+  <% end %>
+<% end %>

@@ -1,0 +1,27 @@
+<h1>Kampagne bearbeiten <%= link_to "Zurück", campaigns_url %></h1>
+
+<% form_for @campaign do |f| %>
+<table>
+  <tr>
+    <td colspan="2">Name</td>
+  </tr>
+  <tr>
+    <td colspan="2"><%= f.text_field :name %></td>
+  </tr>
+  <tr>
+    <td colspan="2">Text</td>
+  </tr>
+  <tr>
+    <td colspan="2"><%= f.text_area :text, :size => '80x10' %></td>
+  </tr>
+  <tr>
+    <td colspan="2">Bedingung (Ruby-Eval, <code>FacebookAccount</code> ist Variable <code>account</code>)</td>
+  </tr>
+  <tr>
+    <td colspan="2"><%= f.text_field :condition, :size => '90' %></td>
+  </tr>
+  <tr>
+    <td colspan="2"><%= f.submit "Änderungen speichern" %></td>
+  </tr>
+</table>
+<% end %>

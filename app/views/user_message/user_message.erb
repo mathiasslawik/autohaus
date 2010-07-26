@@ -1,0 +1,17 @@
+<p>Der Facebook-Benutzer <a href="http://www.facebook.com/profile.php?id=<%= @fb_user.uid %>"><%= @fb_user.name %></a> hat uns folgende Frage gestellt:</p>
+
+<pre><%= @message %></pre>
+
+<p>Seine E-Mailadresse lautet: <a href="mailto:<%= @fb_user.email %>"><%= @fb_user.email %></a></p>
+
+<% unless @contacts.empty? %>
+
+  <p>Der Benutzer ist mit folgenden Kontakten verknüpft:</p>
+
+  <ul>
+  <% @contacts.each do |contact| %>
+    <li><%= contact.name %> (Kundennummer: <%= contact.id %>)</li>
+  <% end %>
+  </ul>
+
+<% end %>

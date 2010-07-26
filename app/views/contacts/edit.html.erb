@@ -1,0 +1,149 @@
+<h1>Kunde bearbeiten - <%= link_to "Zurück", contacts_url %></h1>
+
+<% if flash.has_key?(:errors) %>
+  <ul>
+  <% flash[:errors].each do |error| %>
+    <li>Fehler: <%= error %></li>
+  <% end %>
+  </ul>
+<% end %>
+
+<p>Typ: <%= @contact.class == Person ? "Person" : "Firma" %></p>
+
+<% form_for @contact.becomes(Contact) do |c| %>
+
+  <table class="edit_table">
+    <tr>
+      <td>Kundennummer</td>
+      <td><%= @contact.id %></td>
+    </tr>
+    <% if @contact.class == Person %>
+    <tr>
+      <td>Vorname</td>
+      <td><%= c.text_field :given_name %></td>
+    </tr>
+    <tr>
+      <td>Nachname</td>
+      <td><%= c.text_field :surname %></td>
+    </tr>
+    <% else %>
+    <tr>
+      <td>Firma</td>
+      <td><%= c.text_field :title %></td>
+    </tr>
+    <% end %>
+    <tr>
+      <td>Adresse</td>
+      <td><%= c.text_field :address %></td>
+    </tr>
+    <tr>
+      <td>PLZ</td>
+      <td><%= c.text_field :zipcode %></td>
+    </tr>
+    <tr>
+      <td>Ort</td>
+      <td><%= c.text_field :city %></td>
+    </tr>
+    <tr>
+      <td>Telefonnummer</td>
+      <td><%= c.text_field :telephone %></td>
+    </tr>
+    <tr>
+      <td>Facebook-Account</td>
+      <td>
+        <% unless @contact.facebook_account.nil? %>
+          <% if @contact.facebook_account.uid.nil? %>
+          Noch nicht bestätigt. Freischaltcode lautet: <pre style="display: inline"><%= @contact.facebook_account.token %></pre>
+          <% else %>
+            <%= link_to('Profillink', "http://www.facebook.com/?profile.php?id=" + @contact.facebook_account.uid, :target => :new) %>
+          <% end %>
+        <% else %>
+          Nein. <%= link_to "Freischaltcode erzeugen.", new_contact_facebook_account_url(@contact.id) %>
+        <% end %>
+      </td>
+    </tr>
+  </table>
+
+  <%= c.hidden_field :id %>
+
+  <%= c.submit("&Auml;nderungen speichern") %>
+<% end %>
+
+<% if @fb_information %>
+  <h1>Facebook-Informationen:</h1>
+
+  <% if @fb_information.pic != nil %>
+    <img src="<%= @fb_information.pic %>" />
+  <% end %>
+
+  <table>
+    <% unless @fb_information.email.nil? %>
+    <tr>
+      <td style="width: 8em">Email-Adresse</td>
+      <td><a href="mailto:<%= @fb_information.email %>"><%= @fb_information.email %></a></td>
+    </tr>
+    <% end %>
+    <% unless @fb_information.birthday.nil? %>
+    <tr>
+      <td>Geburtstag</td>
+      <td><%= @fb_information.birthday.strftime("%d.%m.%Y") %></td>
+    </tr>
+    <% end %>
+    <% unless @fb_information.hometown_location_city.nil? %>
+    <tr>
+      <td>Geburtsort</td>
+      <td><%= @fb_information.hometown_location_city %></td>
+    </tr>
+    <% end %>
+    <% unless @fb_information.affiliations_work_name.nil? %>
+    <tr>
+      <td>Arbeit</td>
+      <td><%= @fb_information.affiliations_work_name %></td>
+    </tr>
+    <% end %>
+    <% unless @fb_information.quotes.nil? || @fb_information.quotes == "" %>
+    <tr>
+      <td>Zitate</td>
+      <td><%= @fb_information.quotes %></td>
+    </tr>
+    <% end %>
+    <% unless @fb_information.tv.nil? || @fb_information.tv == "" %>
+    <tr>
+      <td>Fernsehen</td>
+      <td><%= @fb_information.tv %></td>
+    </tr>
+    <% end %>
+    <% unless @fb_information.music.nil? || @fb_information.music == "" %>
+    <tr>
+      <td>Musik</td>
+      <td><%= @fb_information.music %></td>
+    </tr>
+    <% end %>
+    <% unless @fb_information.updated_at.nil? %>
+    <tr>
+      <td>Letzter Besuch</td>
+      <td><%= @fb_information.updated_at.getlocal.strftime("%d.%m.%Y %H:%M") %></td>
+    </tr>
+    <% end %>
+  </table>
+<% end %>
+
+<% unless @contact.friends == nil || @contact.friends.empty? %>
+    <h1>Die Freunde des Kontakts:</h1>
+
+    <ul>
+    <% @contact.friends.each do |friend| %>
+      <li><%= link_to friend.sort, edit_contact_url(friend.id) %></li>
+    <% end %>
+    </ul>
+<% end %>
+
+<% unless @fb_comments.nil? || @fb_comments.empty? %>
+    <h1>Posts des Nutzers zu seinen Aufträgen:</h1>
+
+    <ul>
+    <% @fb_comments.each do |comment| %>
+      <li>Zum Auftrag <%= link_to comment.order.number, order_url(comment.order_id) %>: "<%= comment.text %>"</li>
+    <% end %>
+    </ul>
+<% end %>

@@ -1,0 +1,31 @@
+<% if @contact %>
+  <h1>Liste der Autos von <%= @contact.sort %> - <%= link_to "Zurück", edit_contact_url(@contact.id) %></h1>
+<% else %>
+  <h1>Liste aller Autos - <%= link_to "Zurück", :controller => :home %></h1>
+<% end %>
+
+<% paginated_section @cars do %>
+<table id="list">
+  <tr id="list_head">
+    <% unless params[:contact_id] %><td><%= link_to_sort 'Kontakt', 'contact.sort' %></td><% end %>
+    <td><%= link_to_sort 'Kennzeichen', 'license_number' %></td>
+    <td><%= link_to_sort 'Zulassung', 'registration_date' %></td>
+    <td><%= link_to_sort 'Inspektion', 'inspection_date' %></td>
+    <td><%= link_to_sort 'KM-Stand', 'mileage' %></td>
+    <td><%= link_to_sort 'Letzter Besuch', 'last_seen' %></td>
+    <td>&nbsp;</td>
+  </tr>
+
+  <% @cars.each do |car| %>
+  <tr class="list_row">
+    <% unless params[:contact_id] %><td><%= car.contact.sort %></td><% end %>
+    <td><% unless car.license_number.nil? %><%= car.license_number %><% end %></td>
+    <td><% unless car.registration_date.nil? %><%= car.registration_date.strftime("%d.%m.%Y") %><% end %></td>
+    <td><% unless car.inspection_date.nil? %><%= car.inspection_date.strftime("%d.%m.%Y") %><% end %></td>
+    <td><% unless car.mileage.nil? %><%= car.mileage %> km<% end %></td>
+    <td><% unless car.last_seen.nil? %><%= car.last_seen.strftime("%d.%m.%Y") %><% end %></td>
+    <td><%= link_to car.inspection_due ? "Vormerkung entfernen" : "Auto zur Inspektion vormerken", {:action => 'due_swap', :id => car.id} %></td>
+  </tr>
+  <% end %>
+</table>
+<% end %>

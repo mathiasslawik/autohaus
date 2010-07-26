@@ -1,0 +1,25 @@
+<h1>Liste der Kampagnen</h1>
+
+<% paginated_section @campaigns do %>
+<table id="list">
+  <tr id="list_head">
+    <td><%= link_to_sort 'Nummer', 'id' %></td>
+    <td><%= link_to_sort 'Name', 'name' %></td>
+    <td><%= link_to_sort 'Erstellt', 'created_at' %></td>
+    <td><%= link_to_sort 'Aktualisiert', 'updated_at' %></td>
+    <td>&nbsp;</td>
+  </tr>
+
+  <% @campaigns.each do |campaign| %>
+  <tr class="list_row">
+    <td><%= campaign.id %></td>
+    <td><%= campaign.name %></td>
+    <td><%= campaign.created_at.getlocal.strftime("%d.%m.%Y %H:%m") %></td>
+    <td><%= campaign.updated_at.getlocal.strftime("%d.%m.%Y %H:%m") %></td>
+    <td><%= link_to "Bearbeiten", edit_campaign_url(campaign.id) %></td>
+  </tr>
+  <% end %>
+</table>
+<% end %>
+
+<%= button_to "Kampagne erstellen", :action => :new %>

@@ -1,0 +1,24 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+div#head_bar {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    font-family: Helvetica, Arial;
+    font-size: small;
+    height: 15px;
+}
+
+div#head_bar_title {
+    float: left;
+}
+
+div#head_bar_session {
+    float: right;
+    margin: 0px;
+}

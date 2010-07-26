@@ -1,0 +1,42 @@
+<h1>Auftrag anzeigen - <%= link_to "Zurück", :back %></h1>
+
+<table class="edit_table">
+  <tr>
+    <td>Auftragsnummer</td>
+    <td><%= @order.id %></td>
+  </tr>
+  <tr>
+    <td>Auftraggeber</td>
+    <td><%= @order.contact.sort %></td>
+  </tr>
+  <% unless @order.invoice.nil? %>
+    <tr>
+      <td>Rechnungsnummer</td>
+      <td><%= @order.invoice.number %></td>
+    </tr>
+    <tr>
+      <td>Typ</td>
+      <td><%= @order.invoice.invoice_type %></td>
+    </tr>
+    <tr>
+      <td>Betrag</td>
+      <td><%= "%.2f" % (@order.invoice.amount / 100.0)%> €</td>
+    </tr>
+    <tr>
+      <td>Datum</td>
+      <td><%= @order.invoice.date.strftime("%d.%m.%Y") %></td>
+    </tr>
+    <tr>
+      <td>HU/AU</td>
+      <td><%= @order.invoice.special ? "Ja" : "Nein" %></td>
+    </tr>
+  <% end %>
+</table>
+
+<h1>Facebook-Kommentare</h1>
+
+<ul>
+  <% @order.facebook_comments.each do |comment| %>
+  <li>"<%= comment.text %>" (am <%= comment.created_at.getlocal.strftime("%d.%m.%Y %H:%M") %>) von <%= comment.username %> <%= begin "(Zugeordnete Kontakte: #{FacebookAccount.find_all_by_uid(comment.uid).collect{|account| link_to account.contact.sort, edit_contact_url(account.contact_id)}.join(', ')}" rescue "" end%>)</li>
+  <% end %>
+</ul>
